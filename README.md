@@ -24,6 +24,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'nested_array', '~> 1.0.0'
+gem 'nested_array', '~> 2.0.0'
 ```
 
 And then execute: `bundle`.
