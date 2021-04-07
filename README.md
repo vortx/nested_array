@@ -40,6 +40,14 @@ Or install it yourself as `gem install nested_array`.
     <% end %>
   </ul>
 ```
+### or
+```html
+  <ul>
+    <%= Catalogs.all.to_a.to_nested.nested_to_html do |node| %>
+      <% link_to node['name'], catalog_path(node['id']) %>
+    <% end %>
+  </ul>
+```
 
 ## Development
 
